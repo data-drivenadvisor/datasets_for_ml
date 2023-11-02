@@ -1,0 +1,51 @@
+
+### Metadata for Real Estate Dataset
+- **Domain**: Real Estate
+- **Predictive Task**: Predict the price of houses
+- **Number of Rows**: 51,201
+- **Number of Columns**: 10
+
+#### Column Descriptions:
+1. **Size_SqFt** (Numerical)
+   - Description: Size of the house in square feet
+   - Range: Approximately 500 to 5000 sq ft
+
+2. **Bedrooms** (Numerical, Integer)
+   - Description: Number of bedrooms in the house
+   - Range: 1 to 5
+
+3. **Bathrooms** (Numerical, Integer)
+   - Description: Number of bathrooms in the house
+   - Range: 1 to 3
+
+4. **Age_Years** (Numerical, Integer)
+   - Description: Age of the house in years
+   - Range: 0 to 100 years
+
+5. **Location** (Categorical)
+   - Description: Location of the house
+   - Categories: Urban, Suburban, Rural
+
+6. **Proximity_Amenities** (Categorical)
+   - Description: Proximity to amenities
+   - Categories: Low, Medium, High
+
+7. **House_Price** (Numerical)
+   - Description: Price of the house
+   - Range: Approximately $50,000 to $1,000,000
+
+8. **Garage** (Categorical)
+   - Description: Indicates whether the house has a garage
+   - Categories: Yes, No
+
+9. **Garden** (Categorical)
+   - Description: Indicates whether the house has a garden
+   - Categories: Yes, No
+
+10. **Floor_Level** (Numerical, Integer)
+    - Description: Floor level for apartments or houses with multiple stories
+    - Range: 1 to 5 for houses, higher numbers for apartments
+
+#### Notes:
+- This is a simulated dataset, and the values are generated based on assumed distributions and relationships.
+- The dataset is designed for predictive modeling tasks using Linear Regression and Decision Trees.

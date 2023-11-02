@@ -1,0 +1,55 @@
+
+### Metadata for Healthcare Dataset
+- **Domain**: Healthcare
+- **Predictive Task**: Predict whether a patient has a specific disease (binary outcome)
+- **Number of Rows**: 49,876
+- **Number of Columns**: 11
+
+#### Column Descriptions:
+1. **Age** (Numerical, Integer)
+   - Description: Age of the patient
+   - Range: 18 to 90 years
+
+2. **Gender** (Categorical)
+   - Description: Gender of the patient
+   - Categories: Male, Female
+
+3. **Systolic_BP** (Numerical, Integer)
+   - Description: Systolic blood pressure of the patient
+   - Typical Range: Around 120 mmHg with variation
+
+4. **Diastolic_BP** (Numerical, Integer)
+   - Description: Diastolic blood pressure of the patient
+   - Typical Range: Around 80 mmHg with variation
+
+5. **Cholesterol** (Numerical, Integer)
+   - Description: Cholesterol levels of the patient
+   - Typical Range: Around 200 mg/dL with variation
+
+6. **BMI** (Numerical)
+   - Description: Body mass index of the patient
+   - Typical Range: Around 25 with variation
+
+7. **Diabetes** (Categorical)
+   - Description: Indicates whether the patient has a history of diabetes
+   - Categories: Yes, No
+
+8. **Smoking** (Categorical)
+   - Description: Indicates whether the patient smokes
+   - Categories: Yes, No
+
+9. **Exercise** (Categorical)
+   - Description: Indicates whether the patient exercises regularly
+   - Categories: Yes, No
+
+10. **Family_History** (Categorical)
+    - Description: Indicates whether there is a family history of the disease
+    - Categories: Yes, No
+
+11. **Disease_Presence** (Categorical)
+    - Description: Indicates the presence of the disease
+    - Categories: Yes, No
+
+#### Notes:
+- This is a simulated dataset, and the values are generated based on assumed distributions and relationships.
+- The dataset is designed for predictive modeling tasks using Random Forest and Logistic Regression.

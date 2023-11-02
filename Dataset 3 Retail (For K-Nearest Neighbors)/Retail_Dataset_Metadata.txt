@@ -1,0 +1,55 @@
+
+### Metadata for Retail Dataset
+- **Domain**: Retail
+- **Predictive Task**: Predict customer segment (e.g., high-value, low-value)
+- **Number of Rows**: 33,431
+- **Number of Columns**: 11
+
+#### Column Descriptions:
+1. **Age** (Numerical, Integer)
+   - Description: Age of the customer
+   - Range: 18 to 70 years
+
+2. **Gender** (Categorical)
+   - Description: Gender of the customer
+   - Categories: Male, Female
+
+3. **Annual_Income** (Numerical, Integer)
+   - Description: Annual income of the customer
+   - Range: Varied, centered around $50,000
+
+4. **Spending_Score** (Numerical, Integer)
+   - Description: A score assigned by the mall based on customer behavior and spending nature
+   - Range: 1 to 100
+
+5. **Purchase_History** (Numerical, Integer)
+   - Description: Total amount spent by the customer in the last year
+   - Range: Varied
+
+6. **Frequency_Visits** (Numerical, Integer)
+   - Description: Number of visits to the mall by the customer in the last year
+   - Range: 1 to 52 (weeks in a year)
+
+7. **Product_Preference** (Categorical)
+   - Description: Preferred product category of the customer
+   - Categories: Electronics, Fashion, Groceries, Home & Living, Others
+
+8. **Membership** (Categorical)
+   - Description: Indicates whether the customer has a membership
+   - Categories: Yes, No
+
+9. **Online_Shopping** (Categorical)
+   - Description: Frequency of online shopping by the customer
+   - Categories: Frequent, Occasional, Rarely, Never
+
+10. **Feedback_Score** (Numerical, Integer)
+    - Description: Feedback score given by the customer
+    - Range: 1 to 5
+
+11. **Customer_Segment** (Categorical)
+    - Description: Segment of the customer based on spending behavior
+    - Categories: High-Value, Mid-Value, Low-Value
+
+#### Notes:
+- This is a simulated dataset, and the values are generated based on assumed distributions and relationships.
+- The dataset is designed for predictive modeling tasks using K-Nearest Neighbors (KNN).
